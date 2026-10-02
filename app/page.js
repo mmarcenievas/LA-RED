@@ -21,7 +21,8 @@ export default function Inicio() {
     <>
       <section className="hero">
         <h1>El verdadero sueño colectivo</h1>
-        <p>Apuntes, Todo el material que tengamos, en un solo lugar. <br /> <Descargá sin registrarte.</p>
+        <p>Apuntes, Todo el material que tengamos, en un solo lugar. 
+    <br /> <Descargá sin registrarte.</p>
         <Link href="/subir" className="pill">SUBÍ ACÁ TU APORTE</Link>
         <div className="stats">
           <div className="stat"><b>{stats.c}</b>Carreras</div>
