@@ -30,8 +30,7 @@ export default function Materia() {
     <>
       <Link href={'/carrera/' + m.carreras.id} className="crumb">← {m.carreras.nombre}</Link>
       <h2>{m.nombre}</h2>
-      <div className="mut">{m.anio}º año · {m.cuatrimestre}º cuatrimestre</div>
-      <div className="tabs">
+      <div className="mut">{m.anio}º año · {m.cuatrimestre}º cuatrimestre</div>      <div className="tabs">
         {TIPOS.map((t) => <button key={t} className={'pill s ' + (t === tab ? '' : 'o')} onClick={() => setTab(t)}>{t}</button>)}
       </div>
       <div className="tools">
