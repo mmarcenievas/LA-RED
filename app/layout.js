@@ -3,7 +3,7 @@ import Header from '@/components/Header'
 
 export const metadata = {
   title: 'La Red · Material de estudio colaborativo',
-  description: 'Apuntes, TPs, parciales y finales por carrera y materia. Sitio no oficial.',
+  description: 'Todo el material en un solo lugar. Sitio no oficial.',
 }
 
 export default function RootLayout({ children }) {
