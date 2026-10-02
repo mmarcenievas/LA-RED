@@ -20,9 +20,9 @@ export default function Inicio() {
   return (
     <>
       <section className="hero">
-        <h1>Material de estudio, hecho entre todos</h1>
-        <p>Apuntes, TPs, parciales y finales por carrera y materia. Descargá sin registrarte.</p>
-        <Link href="/subir" className="pill">Quiero subir material</Link>
+        <h1>El verdadero sueño colectivo</h1>
+        <p>Apuntes, Todo el material que tengamos, en un solo lugar. Descargá sin registrarte.</p>
+        <Link href="/subir" className="pill">SUBÍ ACÁ TU APORTE</Link>
         <div className="stats">
           <div className="stat"><b>{stats.c}</b>Carreras</div>
           <div className="stat"><b>{stats.m}</b>Materias</div>
